@@ -1,0 +1,9 @@
+# Events
+
+## key
+
+Gets triggered when we press a key on the keyboard.
+
+## start	
+
+Sent when the device has been started and is ready to use.
