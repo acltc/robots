@@ -23,6 +23,16 @@ Cylon.robot({
       my.sphero.stop();
     });
 
+    my.controller.on("y:press", function() {
+      console.log("CALIBRATE!");
+      my.sphero.startCalibration();
+    });
+
+    my.controller.on("a:press", function() {
+      console.log("FINISH CALIBRATION!");
+      my.sphero.finishCalibration();
+    });
+
     my.controller.on("left:press", function() {
       console.log("LEFT!");
       my.sphero.setRandomColor();

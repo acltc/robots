@@ -6,8 +6,8 @@ Cylon.robot({
     { name: 'keyboard', adaptor: 'keyboard' }
     ],
   devices: [
-    {name: 'sphero', driver: 'sphero', connection: 'sphero'},
-    {name: 'keyboard', driver: 'keyboard', connection: 'keyboard'}
+    { name: 'sphero', driver: 'sphero', connection: 'sphero'},
+    { name: 'keyboard', driver: 'keyboard', connection: 'keyboard'}
   ],
 
   work: function(my) {
@@ -40,5 +40,16 @@ Cylon.robot({
       my.sphero.setRandomColor();
       my.sphero.stop();
     });
+
+    my.keyboard.on('c', function(key) { 
+      console.log("CALIBRATE!");
+      my.sphero.startCalibration();
+    });
+
+    my.keyboard.on('f', function(key) { 
+      console.log("FINISH CALIBRATION!");
+      my.sphero.finishCalibration();
+    });
+
   }
 }).start();
