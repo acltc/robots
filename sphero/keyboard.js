@@ -2,7 +2,7 @@ var Cylon = require('cylon');
 
 Cylon.robot({
   connections: [
-    { name: 'sphero', adaptor: 'sphero', port: '/dev/tty.Sphero-BBP-AMP-SPP' },
+    { name: 'sphero', adaptor: 'sphero', port: '/dev/tty.Sphero-BBP-AMP-SPP' }, // change this port to whatever your settings are
     { name: 'keyboard', adaptor: 'keyboard' }
     ],
   devices: [

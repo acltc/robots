@@ -80,39 +80,7 @@ Cylon.robot({
     my.controller.on("lb:press", function() {
       console.log("COUNTER-CLOCKWISE!");
       my.drone.counterClockwise(1);
-    });
-
-    // my.keyboard.on('left', function(key) { 
-    //   my.drone.left(0.1);
-    // });
-
-    // my.keyboard.on('up', function(key) { 
-    //   my.drone.front(0.1);
-    // });
-
-    // my.keyboard.on('down', function(key) { 
-    //   my.drone.back(0.1);
-    // });
-
-
-
-    // my.keyboard.on('u', function(key) { 
-    //   my.drone.up(0.5);
-    // });
-
-    // my.keyboard.on('d', function(key) { 
-    //   my.drone.down(0.5);
-    // });
-
-    // my.keyboard.on('w', function(key) { 
-    //     my.drone.wave();
-    // });
-
-    // my.keyboard.on('f', function(key) { 
-    //   my.drone.frontFlip();
-    // });
-
-    
+    });   
   
   }
 }).start();
