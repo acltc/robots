@@ -30,7 +30,8 @@ NOTE: All of these examples have only been tested on OSX (Mac). I believe that t
 ###Installing Stuff for Ardrone
 
 1. In the Terminal, go into your robots folder and then enter the following command: `npm install cylon-ardrone`
-2. To run the program, make sure your Terminal is navigated to the proper folder and run `node PROGRAM_NAME.js` For example: `node basic.js`
+2. If you go to your Wifi settings, and your drone is on, you should a Wifi network called ardrone2_234435 or something like that. Connect your computer's Wifi to that "network".
+3. To run the program, make sure your Terminal is navigated to the proper folder and run `node PROGRAM_NAME.js` For example: `node basic.js`
 
 ###Installing Stuff for Keyboard
 
