@@ -10,23 +10,23 @@ Cylon.robot({
     });
 
     my.keyboard.on('b', function(key) {
-      console.log("a pressed");
+      console.log("b pressed");
     });
 
     my.keyboard.on('left', function(key) {
-      console.log("a pressed");
+      console.log("left pressed");
     });
 
     my.keyboard.on('right', function(key) {
-      console.log("a pressed");
+      console.log("right pressed");
     });
 
     my.keyboard.on('up', function(key) {
-      console.log("a pressed");
+      console.log("up pressed");
     });
 
     my.keyboard.on('down', function(key) {
-      console.log("a pressed");
+      console.log("down pressed");
     });
   }
 }).start();
