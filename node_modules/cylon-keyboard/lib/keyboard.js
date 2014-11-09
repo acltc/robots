@@ -57,5 +57,5 @@ Keyboard.handleKeypress = function handleKeypress(ch, key) {
 
       this.setKeyupTimeout(500, key);
     }
-  };
+  }
 };

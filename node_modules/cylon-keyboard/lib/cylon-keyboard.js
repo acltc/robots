@@ -12,16 +12,14 @@ var Adaptor = require('./adaptor'),
     Driver = require('./driver');
 
 module.exports = {
+  adaptors: ['keyboard'],
+  drivers: ['keyboard'],
+
   adaptor: function(opts) {
     return new Adaptor(opts);
   },
 
   driver: function(opts) {
     return new Driver(opts);
-  },
-
-  register: function(robot) {
-    robot.registerAdaptor('cylon-keyboard', 'keyboard');
-    robot.registerDriver('cylon-keyboard', 'keyboard');
   }
 };
