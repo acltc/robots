@@ -4,7 +4,7 @@ This is a collection of examples for programming various robots using [CylonJS](
 
 This is a work in progress, and I hope to continously add more examples. Please contribute your own as well. The one thing that I'm aiming for is that every example here should actually work as expected.
 
-NOTE: All of these examples have only been tested on OSX (Mac). I believe that the examples should work the same on other platforms (except that the ports would need to be changed), and that the major differences between platforms involve installing the drivers for the various hardware components. Below I've provided the steps I took to install everything on OSX.
+NOTE: All of these examples have only been tested on OSX (Mac). I believe that the examples should work similarly on other platforms (except that the ports would need to be changed), and that the major differences between platforms involve installing the drivers for the various hardware components. Below I've provided the steps I took to install everything on OSX.
 
 ##Installation for OSX (Mac)
 
@@ -46,6 +46,8 @@ NOTE: All of these examples have only been tested on OSX (Mac). I believe that t
 4. Make sure you're in your robots folder and enter: `npm install cylon-joystick`
 5. Plug your Xbox controller into one of your computer's USB ports.
 6. To run the program, make sure your Terminal is navigated to the proper folder and run `node PROGRAM_NAME.js` For example: `node basic.js`
+
+
 
 
 
