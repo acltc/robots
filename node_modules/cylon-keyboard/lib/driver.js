@@ -6,11 +6,11 @@
  * Licensed under the Apache 2.0 license.
 */
 
-'use strict';
+"use strict";
 
-var Cylon = require('cylon');
+var Cylon = require("cylon");
 
-var Keys = require('./keys');
+var Keys = require("./keys");
 
 var Driver = module.exports = function Driver() {
   Driver.__super__.constructor.apply(this, arguments);
