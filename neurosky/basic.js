@@ -3,9 +3,9 @@
 var Cylon = require('cylon');
 
 Cylon.robot({
-  connection: {name: 'neurosky', adaptor: 'neurosky', port: '/dev/tty.MindWaveMobile-DevA'},
+  connections: [{name: 'neurosky', adaptor: 'neurosky', port: '/dev/tty.MindWaveMobile-DevA'}],
 
-  device: {name: 'headset', driver: 'neurosky'},
+  devices: [{name: 'headset', driver: 'neurosky'}],
 
   work: function(my) {
     my.headset.on('attention', function(data) {

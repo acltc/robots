@@ -1,15 +1,15 @@
 var Cylon = require('cylon');
 
 Cylon.robot({
-  connection: {
+  connections: [{
     name: 'leapmotion',
     adaptor: 'leapmotion'
-  },
+  }],
 
-  device: {
+  devices: [{
     name: 'leapmotion',
     driver: 'leapmotion'
-  },
+  }],
 
   work: function(my) {
     my.leapmotion.on('hand', function(payload) {

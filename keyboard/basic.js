@@ -1,8 +1,8 @@
 var Cylon = require('cylon');
 
 Cylon.robot({
-  connection: { name: 'keyboard', adaptor: 'keyboard' },
-  device: { name: 'keyboard', driver: 'keyboard' },
+  connections: [{ name: 'keyboard', adaptor: 'keyboard' }],
+  devices: [{ name: 'keyboard', driver: 'keyboard' }],
 
   work: function(my) {
     my.keyboard.on('a', function(key) {
