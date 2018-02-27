@@ -1,4 +1,4 @@
-#Robots!
+# Robots!
 
 This is a collection of examples for programming various robots using [CylonJS](http://cylonjs.com). I have found that not all the examples in the Cylon documentation work correctly, and while I'm working to help improve that, I am releasing these examples that I've actually gotten to work. These examples make for good starting points for which you can develop more complex programs.
 
@@ -6,16 +6,16 @@ This is a work in progress, and I hope to continously add more examples. Please 
 
 NOTE: All of these examples have only been tested on OSX (Mac). I believe that the examples should work similarly on other platforms (except that the ports would need to be changed), and that the major differences between platforms involve installing the drivers for the various hardware components. Below I've provided the steps I took to install everything on OSX.
 
-##Installation for OSX (Mac)
+## Installation for OSX (Mac)
 
-###General Installation
+### General Installation
 
-1. Install NodeJS by going to the [Node Website](http://nodejs.org) and clicking on the "Install" button.
+1. (Straight Outta Constant Cohort - Ignore this step) Install NodeJS by going to the [Node Website](http://nodejs.org) and clicking on the "Install" button.
 2. Inside your terminal, create a folder for all your robots projects by entering `mkdir robots` or whatever other folder name you want to use.
 3. Go into that folder by entering `cd robots`
 4. Install Cylon with the following command: `npm install cylon`
 
-###Installing Stuff for Sphero
+### Installing Stuff for Sphero
 
 1. In the Terminal, go into your robots folder and then enter the following command: `npm install cylon-sphero`
 2. Your computer may ask if you want to install the XCode Developer Tools. If so, click the button that says "Install".
@@ -27,7 +27,7 @@ NOTE: All of these examples have only been tested on OSX (Mac). I believe that t
 8. In whatever example programs you're working in, make sure to find the Sphero "port" and replace it with yours. 
 9. To run the program, make sure your Terminal is navigated to the proper folder and run `node PROGRAM_NAME.js` For example: `node basic.js`
 
-###Installing Stuff for Ardrone
+### Installing Stuff for Ardrone
 
 1. In the Terminal, go into your robots folder and then enter the following command: `npm install cylon-ardrone`
 2. If you go to your Wifi settings, and your drone is on, you should a Wifi network called ardrone2_234435 or something like that. Connect your computer's Wifi to that "network".
