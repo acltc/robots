@@ -10,7 +10,7 @@ NOTE: All of these examples have only been tested on OSX (Mac). I believe that t
 
 ### General Installation
 
-1. (Straight Outta Constant Cohort - Ignore this step) Install NodeJS by going to the [Node Website](http://nodejs.org) and clicking on the "Install" button.
+1. Install NodeJS by going to the [Node Website](http://nodejs.org) and clicking on the "Install" button.
 2. Inside your terminal, create a folder for all your robots projects by entering `mkdir robots` or whatever other folder name you want to use.
 3. Go into that folder by entering `cd robots`
 4. Install Cylon with the following command: `npm install cylon`
@@ -33,12 +33,12 @@ NOTE: All of these examples have only been tested on OSX (Mac). I believe that t
 2. If you go to your Wifi settings, and your drone is on, you should a Wifi network called ardrone2_234435 or something like that. Connect your computer's Wifi to that "network".
 3. To run the program, make sure your Terminal is navigated to the proper folder and run `node PROGRAM_NAME.js` For example: `node basic.js`
 
-###Installing Stuff for Keyboard
+### Installing Stuff for Keyboard
 
 1. In the Terminal, go into your robots folder and then enter the following command: `npm install cylon-keyboard`
 2. To run the program, make sure your Terminal is navigated to the proper folder and run `node PROGRAM_NAME.js` For example: `node basic.js`
 
-###Installing Stuff for Xbox
+### Installing Stuff for Xbox
 
 1. If you don't yet have Homebrew installed on your computer, install Homebrew by running the following as one line in the Terminal: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` It doesn't matter which folder you're in.
 2. Download this installer and run it: http://files.tattiebogle.net/360/360ControllerInstall.dmg
