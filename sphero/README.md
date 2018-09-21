@@ -1,4 +1,6 @@
 
+(currretly not working, but you could try to fix it)
+
 ### Installing Stuff for Sphero
 
 1. In the Terminal, go into your robots folder and then enter the following command: `npm install cylon-sphero`
